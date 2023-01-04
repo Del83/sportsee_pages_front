@@ -1,0 +1,22 @@
+.average-sessions {
+    background-color: #FF0000;
+    border-radius: 5px;
+    width: 258px;
+    height: 263px;
+}
+
+.average-title{
+    color: #FFFFFF;    
+    width: 150px;
+    position: absolute;    
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 0.5;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.average-sessions > .recharts-responsive-container > .recharts-wrapper > .recharts-surface {
+    height: 265px;
+}

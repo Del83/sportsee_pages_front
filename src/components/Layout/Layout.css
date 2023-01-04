@@ -1,0 +1,99 @@
+ul {
+    padding: 0;
+}
+
+li {    
+    list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+a:active {
+   color: white;
+}
+
+
+/** -------------------- HEADER -------------------- */
+.header {
+    background-color: black;
+    height: 90px;
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+  
+.header-logo-ctn {
+    margin-left: 1.8125em;
+}
+  
+.header-logo-img {
+    display: block;
+}
+  
+.header-nav {
+    width: 100%;
+    margin: 0 5em;
+    padding-left: 5.4375em;
+}
+        
+.header-nav-listctn {
+    color: white;
+    display: flex;
+    justify-content: space-between;    
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.header-nav-link {
+    margin-left: 1em;
+}
+
+  
+/** -------------------- SIDEBAR -------------------- */
+.sideBar {
+    background-color: black;    
+    width: 117px;
+    height: 100%;    
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.sideBar-nav {
+    display: flex;
+}
+
+.sideBar-logo-ctn {
+    background-color: white;
+    width: 64px;
+    height: 64px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.sideBar-logo-yoga, .sideBar-logo-pool, .sideBar-logo-bike, .sideBar-logo-dumbbell {
+    height: 32px;
+} 
+
+.sideBar-copyright-ctn {
+    position: absolute;
+    bottom: 60px;
+}
+
+.sideBar-copyright {
+    color: white;    
+    font-size: 12px;      
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+}

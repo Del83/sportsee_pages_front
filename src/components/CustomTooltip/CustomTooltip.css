@@ -1,0 +1,31 @@
+.tooltip-activity {
+    background-color: #E60000;    
+    width: 39px;
+    height: 63px;
+    color: white;
+    font-size: 7px;
+}
+
+.tooltip-sessions {
+    background-color: white;      
+    width: 39px;
+    height: 25px;
+    color: black;
+    font-size: 8px;
+}
+
+.tooltip-ctn-activity, .tooltip-ctn-sessions {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+} 
+
+.tooltip-ctn-activity {
+    height: 53px;
+} 
+
+.tooltip-ctn-sessions {
+    height: 15px;
+}

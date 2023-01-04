@@ -1,0 +1,25 @@
+.profil {
+    width: fit-content;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: 200px;    
+}
+
+.diag-ctn {
+    height: 263px;    
+    display: flex;
+    column-gap: 30px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.message-oups {
+    text-align: center;
+    position: relative;
+    top: 80px;
+}

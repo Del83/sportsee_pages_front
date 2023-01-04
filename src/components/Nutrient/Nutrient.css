@@ -1,0 +1,62 @@
+.nutrient {
+    width: 258px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    grid-column: 2;
+    grid-row: 1 / 3;
+}
+
+.nutrient-card {
+    background-color: #FBFBFB;
+    width: 258px;
+    height: 124px;
+    display: flex;
+    align-items: center;    
+    border-radius: 5px;
+}
+
+.nutrient-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin: 32px;
+    border-radius: 5px;
+}
+
+.nutrient-red {
+    background: rgba(255, 0, 0, .07);
+}
+
+.nutrient-blue {
+    background: rgba(74, 184, 255, .1);
+}
+
+.nutrient-yellow {
+    background: rgba(253, 204, 12, .1);
+}
+
+.nutrient-pink {
+    background: rgba(253, 81, 129, .1);
+}
+
+.nutrient-value {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin: 0;
+}
+
+.nutrient-cat {
+    color: rgba(116, 121, 140, 1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin: 0;
+}
+
